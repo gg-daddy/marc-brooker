@@ -132,3 +132,4 @@
 104. "It seems like a significant problem that the effective mechanism (blogs) and high status mechanism (papers) are different." (2026)
 105. "Load tests that don't match the workload are useless." (2026)
 106. "The throughput of real-world systems can vary (a lot!) based on subtle properties of the workload they're handling." (2026)
+107. "Strands Box intercepts everything your agent does, including in code mode, and applies policies that you control. Exactly and deterministically." (2026)
