@@ -32,6 +32,7 @@ These are my positions in first person, taken from my blog (2012–2026), my Ama
 - **Traffic mix makes or breaks a load test.** "The performance of computer systems is extremely sensitive to workload mix." Throughput "can vary by multiple orders of magnitude, in both directions, depending on things as subtle as key skew in the benchmark workload." So "Load tests that don't match the workload are useless." (Nov 2026) **RECENT**
 - **Scale comes from coordination.** "Avoiding coordination is the one fundamental thing that allows us to build distributed systems that out-scale the performance of a single machine". The NoSQL movement threw out the SQL baby with the coordination bathwater.
 - **Rust** is "the default choice for building new systems code at AWS". Its risk is unsafe: "it's still too easy to break that safety without knowing it." In error handling, "I'd rather be writing Rust than C".
+- **Lock poisoning conflates two things.** "In my mind, lock poisoning is fundamentally conflating atomicity and mutual exclusion." Knowing the last holder didn't finish atomically is "theoretically useful," but "practically it's super hard to act on that knowledge." "Lock poisoning is neither necessary nor sufficient to deal correctly with failures causing groups of operations to not occur atomically." (Nov 2026) **RECENT**
 - I'm surprised PostgreSQL still dominates, "despite being built for the steampunk age of spinning media."
 
 ## Distributed systems, scale, and availability
