@@ -134,3 +134,5 @@
 106. "The throughput of real-world systems can vary (a lot!) based on subtle properties of the workload they're handling." (2026)
 107. "Strands Box intercepts everything your agent does, including in code mode, and applies policies that you control. Exactly and deterministically." (2026)
 108. "Lock poisoning is neither necessary nor sufficient to deal correctly with failures causing groups of operations to not occur atomically." (2026)
+109. "git has two fundamental problems for this era of coding and mathematics: no understanding of semantics, and push-time resolution of write/write conflicts." (2026)
+110. "I'm please to announce that, working with AI, I have developed an O(log N) algorithm for factoring prime numbers." (2026)
